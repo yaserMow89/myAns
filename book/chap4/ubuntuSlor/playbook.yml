@@ -18,7 +18,7 @@
         url: "https://archive.apache.org/dist/lucene/solr/{{ solr_version }}/solr-{{ solr_version }}.tgz"
         dest: "{{ download_dir }}/slor-{{ solr_version }}.tgz" # Full path is given to avoid subsequent downloads on the subsequent runs of the playbook
         checksum: "{{ solr_checksum }}"
-        mode: O0755
+        # mode: O0755
     - name: Expand Solr
       ansible.builtin.unarchive:
         src: "{{ download_dir }}/solr-{{ solr_version }}.tgz"
