@@ -1,4 +1,4 @@
-**Command Vs Shell**
+**Command Vs Shell**</br>
 Why use shell instead of command? Ansible’s command module is the
 preferred option for running commands on a host (when an Ansible module
 won’t suffice), and it works in most scenarios. However, command doesn’t
