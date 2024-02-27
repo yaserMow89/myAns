@@ -11,4 +11,5 @@
 --become (-b ) 
 --become-user=USER, define the root user(the default is root)
 --aks-become-pass (-k) 
-
+--extra-vars "var1=var1_value"
+--extra-vars "@json or yml file" --> not recommended
